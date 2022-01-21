@@ -1,0 +1,158 @@
+.nav-tabs {
+  border: unset;
+}
+
+.nav-tabs .nav-link {
+  border: unset;
+}
+.nav-tabs .user__link {
+  color: black;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.nav-tabs .user__link.active {
+  color: #5c33ff;
+  font-weight: bold;
+  border-bottom: 2px solid #5c33ff;
+  font-size: 15px;
+}
+
+.form__container .profile__picture {
+  position: relative;
+}
+.form__container .profile__picture .user__profile__picture {
+  width: 111px;
+  border-radius: 66px;
+}
+.form__container .profile__picture #output {
+  width: 111px;
+  height: 111px;
+  border-radius: 66px;
+}
+.form__container .profile_pic_input {
+  visibility: hidden;
+}
+
+.form__container .profile__picture .edit_icon {
+  position: absolute;
+  top: 2px;
+  left: 75px;
+  display: inline-block;
+  padding: 0 4px;
+  border: 2px solid white;
+  border-radius: 26px;
+  background-color: white;
+}
+
+.form__container .profile__picture .edit_icon:hover {
+  cursor: pointer;
+}
+
+.user__form .input__field {
+  border-radius: 16px;
+}
+
+.user__form .input__width {
+  width: 315px;
+}
+
+.user__form .next__button button {
+  padding: 10px 29px;
+  border-radius: 23px;
+  color: white;
+  background-color: #5c33ff;
+}
+
+.formValidation .has-error .help-block {
+  color: #d06868;
+  font-size: 12px;
+  line-height: 1.1;
+  font-style: italic;
+}
+
+/* *****document verification***** */
+.container__document .learn__more {
+  display: inline-block;
+
+  color: #5c33ff;
+}
+
+.container__document .input__field {
+  border-radius: 22px;
+}
+
+.container__document canvas {
+  width: 278px;
+  height: 200px;
+  background-color: #e6ffff;
+  border: 2px dashed #94b7bd;
+  margin: 10px -27px 0px -20px;
+}
+
+/* Id proof Front Image upload */
+.front__image__upload form {
+  position: absolute;
+  top: 65px;
+  left: 80px;
+}
+
+.front__image__upload form span {
+  margin: 17px 0px 0px 1px;
+}
+
+.front__image__upload form span i {
+  margin: 15px 30px 0px 30px;
+}
+
+.front__image__upload form span label {
+  margin-bottom: unset;
+  padding-bottom: unset;
+}
+
+/* Id proof Back Image upload */
+.back__image__upload form {
+  position: absolute;
+  top: 65px;
+  left: 80px;
+}
+
+.back__image__upload form span {
+  margin: 17px 0px 0px 1px;
+}
+
+.back__image__upload form span i {
+  margin-bottom: unset;
+  padding-bottom: unset;
+}
+
+.back__image__upload form span label {
+  margin-bottom: unset;
+  padding-bottom: unset;
+}
+
+.star-icon {
+  color: red;
+}
+
+.smt_btn {
+  color: #5c33ff;
+}
+
+.btn_cancel {
+  color: black;
+  background-color: white;
+  border: 1px solid white;
+  border-radius: 20px;
+  padding: 3px 15px 3px 15px;
+}
+
+.btn_next {
+  color: white;
+  background-color: #5c33ff;
+  border: 1px solid #5c33ff;
+  border-radius: 20px;
+  padding: 3px 15px 3px 15px;
+}
+
+/* General Styles */

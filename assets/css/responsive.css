@@ -1,0 +1,43 @@
+@media (max-width: 767px) {
+    .profile__picture{
+margin-top: 15px;
+    }
+    .user__form .input__width {
+        width: unset;
+    }
+    .container__document canvas {
+        width: 230px;
+        }
+    #canv1,#canv2{
+       margin-top: 15px;
+    }
+    
+
+    .front__image__upload form,
+    .back__image__upload form  {
+        left: 60px;
+    }
+    
+
+
+}
+
+
+/* tab */
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .user__form .input__width {
+        /* width: 242px; */
+        width: 151px;
+    }
+    .container__document canvas {
+    width: 177px;
+    }
+    #finput,#binput{
+        font-size: 13px;
+    }
+    .front__image__upload form,
+    .back__image__upload form  {
+        left: 32px;
+    }
+}
